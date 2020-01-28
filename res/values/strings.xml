@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Permanent Proxy</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Flat Earth!</string>
+    <string name="start_proxy">Activate</string>
+    <string name="adb_enabled">Enable ADB over bluetooth and \"always allow computer\"</string>
+    <string name="success_proxy">Done</string>
+    <string name="status">Proxy:</string>
+    <string name="loading">Loading…</string>
+    <string name="proxy">Proxy</string>
+    <string name="start_on_boot">Enable on boot</string>
+    <string name="set_proxy">Set proxy</string>
+    <string name="set_proxy_address">Host</string>
+    <string name="set_proxy_port">Port</string>
+    <string name="not_enabled">Proxy not enabled</string>
+    <string name="something_wrong">Error, try again</string>
+    <string name="show_me_how">How to Use</string>
+    <string name="title_activity_enable_adbbluetooth">EnableADBBluetoothActivity</string>
+    <string name="instructions"><![CDATA[How To:\nEnable Developer Options and enable \"ADB debugging\" and \"Debug over Bluetooth\".\nRequest permission and press \"Allow\" or \"Always allow this Computer\".\nNow ADB debugging can be turned off, on reboot the proxy will remain.\n\nUse at your own risk.]]></string>
+    <string name="requesting_permission">Requesting permission.\n\Works best with WiFi turned OFF.</string>
+    <string name="wss_permission_needed">Write secure settings permission needed. ADB over Bluetooth can be used.</string>
+    <string name="request_permission">ADB over Bluetooth is enabled, request permission!</string>
+    <string name="permission_granted">Permission granted,\nADB can be turned off.</string>
+    <string name="enable_proxy">Enable</string>
+    <string name="disable_proxy">Disable (Will reboot)</string>
+    <string name="turning_off">Turning off…</string>
+    <string name="current_ext">IP:</string>
+    <string name="NA">N/A</string>
+    <string name="other_apps">Wait for it...</string>
+    <string name="cancel">Cancel</string>
+    <string name="valid_port">Error: unvalid port!</string>
+    <string name="too_long">Nothing happens...</string>
+    <string name="title_activity_old_watch">OldWatchActivity</string>
+    <string name="old_watch">Not powerful enough... you will need a PC.\n\nMake sure to connect your watch to your PC via ADB. Use the command\n\nadb shell pm grant marsdroid.me.wearproxy android.permission.WRITE_SECURE_SETTINGS\n\nto give WearProxy the permissions needed to turn activate and edit the proxy.\n\nTo turn off use command:\n\nadb shell settings delete global http_proxy; adb shell settings delete global global_http_proxy_host; adb shell settings delete global global_http_proxy_port; adb shell settings delete global global_http_proxy_exclusion_list; adb shell settings delete global global_proxy_pac_url; adb shell reboot</string>
+    <string name="request_permission_not_working">Requesting permission or turning off not working?</string>
+</resources>
